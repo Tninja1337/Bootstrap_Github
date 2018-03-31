@@ -4,13 +4,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- or you can download a local copy of bootstrap.min.css -->
 
 		<link rel="stylesheet" href="style.css">
@@ -23,6 +22,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 		<title>Triston Guest's Website</title>
+
+<style>
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	padding: 1% 0;
+	font-size: 1.2em;
+	border: 0;
+}
+.navbar-brand {
+	float: left;
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus
+	.navbar-inverse .navbar-nav .active a:hover {
+		color: #FFF;
+		background-color: #202020;
+	}
+	.navbar-inverse .navbar-nav li a {
+		color: #D5D5D5
+	}
+
+
+</style>
+
   </head>
 
 
@@ -30,23 +55,25 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="images/cthuhu.png" width="200" height="100"></a>
+				<a class="navbar-brand" href="#"><img src="images/cthuhu.png" width="100" height="100"></a>
 			</div>
-			<div class="collapse navbar-collapse" id=MyNavbar>
-				<ul class="nav navbar-nav navbar right">
-						<li class="active"><a href="Home"</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Game</a></li>
+			<div class="collapse navbar-collapse" id=myNavbar>
+				<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+							<li class="active"><a href="#">About</a></li>
+							<li class="active"><a href="#">Projects</a></li>
+							<li class="active"><a href="#">Game</a></li>
 				</ul>
 		</div>
 
 	</nav>
+</div>
+</div>
 
 <div class="full_header">
 	<div class="header_image"><img src="images/cthuhu.png" width="500" height="500"><!--width="640" height="424" --></img></div>
